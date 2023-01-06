@@ -20,15 +20,20 @@ body {
 
 h1 {
     color: lightblue;
+    
+}
+
+h2 {
+    font-variant: small-caps;
+    color: green;
 }
 
 img {
     width: 50%;
 }
 
-h2 {
-    font-variant: small-caps;
-    color: green;
+p{
+    margin-left: 5px;
 }
 
 strong {
