@@ -1,4 +1,4 @@
-*:not(li, ul) {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,6 +39,10 @@ p {
 strong {
     background-color: #ffd700f0;
     border-radius: 2px;
+}
+
+ul {
+    margin-left: 1em;
 }
 
 /* create checkbox */
