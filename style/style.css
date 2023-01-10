@@ -42,15 +42,15 @@ strong {
 }
 
 ul {
-    margin-left: 1em;
+    margin-bottom: 0;
 }
 
 /* create checkbox */
 
 #choose_type {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
+    top: 5px;
+    right: 5px;
 }
 
 .switch {
