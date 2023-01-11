@@ -8,9 +8,11 @@ window.addEventListener("load", function () {
 
     chooseButton.addEventListener("change", function () {
         if (this.checked) {
+            document.title = "Mon Film Préféré | Perso";
             bodyCour.style.display = "none";
             bodyMy.style.display = "block";
         } else {
+            document.title = "Mon Film Préféré | Cours";
             bodyCour.style.display = "block";
             bodyMy.style.display = "none";
         }
