@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
 
     bodyCour.style.display = "block";
     bodyMy.style.display = "none";
+    document.title = "Mon Film Préféré | Cours";
 
     chooseButton.addEventListener("change", function () {
         if (this.checked) {
