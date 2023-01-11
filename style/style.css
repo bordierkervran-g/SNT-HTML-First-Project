@@ -1,47 +1,47 @@
-*:not(li) {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 * {
     color: #ddd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-iframe {
-    width: 50%;
-    aspect-ratio: 16/9;
 }
 
 #body_cour {
     background-color: #464646;
 }
 
-h1 {
+#body_cour *:not(li) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body_cour iframe {
+    width: 50%;
+    aspect-ratio: 16/9;
+}
+
+#body_cour h1 {
     color: lightblue;
 
 }
 
-h2 {
+#body_cour h2 {
     font-variant: small-caps;
     color: lightgreen;
 }
 
-img {
+#body_cour img {
     width: 50%;
 }
 
-p {
+#body_cour p {
     margin-left: 5px;
 }
 
-strong {
+#body_cour strong {
     background-color: #ffd700f0;
     border-radius: 2px;
 }
 
-ul {
+#body_cour ul {
     margin-bottom: 0;
 }
 
