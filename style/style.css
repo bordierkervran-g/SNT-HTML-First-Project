@@ -3,12 +3,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Mask scroll bar*/
-
-:-webkit-scrollbar {
-    display: none;
-}
-
 body {
     margin: 0;
     padding: 0;
