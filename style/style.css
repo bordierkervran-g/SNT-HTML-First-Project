@@ -12,9 +12,10 @@ body {
 #body_cour {
     background-color: #464646;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-#body_cour *:not(li) {
+#body_cour *:not(li, ul) {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
